@@ -1,6 +1,6 @@
 # Bem-Vindo ao meu Portfólio
 
-## Bem-vindo ao meu Portfólio de Front-End! Aqui você encontrará uma seleção dos projetos que desenvolvi, demonstrando minhas habilidades e experiência na área de desenvolvimento front-end.
+Bem-vindo ao meu Portfólio de Front-End! Aqui você encontrará uma seleção dos projetos que desenvolvi, demonstrando minhas habilidades e experiência na área de desenvolvimento front-end.
 
 ## Sobre Mim
 
