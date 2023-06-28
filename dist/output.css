@@ -925,4 +925,13 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .max-sm\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .max-sm\:pl-9 {
+    padding-left: 2.25rem;
+  }
 }
