@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body class="px-72 bg-slate-900 py-7 max-sm:px-8">
+<body class="px-72 pt-7  bg-slate-900 max-sm:px-8">
     <header class="container h-8">
         <nav class="flex place-items-center justify-between">
             <div>
                 <h1 class="text-2xl font-bold text-slate-100">Dev.João</h1>
             </div>
-            <div class="w-72 max-sm:hidden">
-                <div class="flex justify-between">
+            <div class="w-72 flex justify-between max-sm:hidden">
                     <a href="#first-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Ínicio</a>
                     <a href="#secondary-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Sobre Mim</a>
-                    <a href="#four-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Projetos</a>
-                </div>
+                    <a href="#third-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Projetos</a>
             </div>
         </nav>
     </header>
     <main>
+
         <section class="container text-slate-100 pt-48" id="first-section">
             <div class="w-1/2">
                 <h2 class="font-bold text-xl tracking-wide">Olá, Eu sou o <strong class="text-purple-700">João</strong>
@@ -34,6 +33,10 @@
             </div>
 
         </section>
+
+        <!--
+            PARTE DOS SOBRE MIM
+        -->
 
         <section class="container h-4/5 mt-52 pt-32" id="secondary-section">
             <div class="w-full h-96 flex bg-stone-900 px-12 py-10 rounded-lg max-sm:h-3/4 max-sm:flex-col max-sm:w-full max-sm:px-6">
@@ -65,23 +68,57 @@
             </div>
         </section>
 
-        <section class="container mt-52 h-4/5 flex" id="third-section">
-            <div class="w-72 h-72 bg-stone-900 rounded-md flex-col">
-                <div class="">
-                    <img src="src/build/img/projetos/neoteric.png" alt="Imagem do Site Neoteric Innovations" class="rounded-md">
+
+        <!--
+            PARTE DOS PROJETOS
+        -->
+
+        <section class="container mt-72 h-full flex-col text-slate-100 font-semibold tracking-wide" id="third-section">
+            <h1 class="text-3xl font-bold mb-28">Projetos</h1>
+            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5">
+                <div class="w-1/2 max-sm:w-full max-sm:flex max-sm:justify-center">
+                    <img src="src/build/img/projetos/Neoteric.png" alt="Uma imagem com a logo da Neoteric" class="w-56 h-56 rounded-full">
                 </div>
-                <div class="px-2">
-                    <h1 class="font-bold text-lg text-slate-400 py-1">Neoteric Innovations</h1>
-                    <p class="font-bold text-sm text-slate-400 py-2">Neoteric Innovations uma empresa de tecnologia que ira transformar o futuro.</p>
-                    <div class="flex justify-between">
-                        <a href="https://website-neoteric.vercel.app/" target="_blank" class="w-1/2 h-8 bg-slate-600 rounded-sm text-center">Live</a>
-                        <a href="">GitHub</a>
-                    </div>
+                <div class="w-1/2 flex flex-col justify-between max-sm:w-full max-sm:mt-12 max-sm:mb-5">
+                    <h1 class="text-xl font-bold tracking-wide max-sm:mb-5">Neoteric Innovations</h1>
+                    <p class="tracking-wide font-semibold text-slate-300 max-sm:mb-8">Um simples site feito com HTML, CSS e BOOTSTRAP.</p>
+                    <a href="" target="_blank" class="px-24 py-3 bg-gradient-to-l from-violet-500 to-fuchsia-500 text-center rounded-md">VER PROJETO</a>
+                </div>
+            </div>
+
+            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5">
+                <div class="w-1/2 flex flex-col justify-between max-sm:w-full max-sm:mt-12 max-sm:mb-5 max-sm:order-1">
+                    <h1 class="text-xl font-bold tracking-wide max-sm:mb-5">More Music</h1>
+                    <p class="tracking-wide font-semibold text-slate-300 max-sm:mb-8">Um site inspirado no Spotify feito com, HTML, CSS e SASS.</p>
+                    <a href="" target="_blank" class="px-24 py-3 bg-gradient-to-r from-sky-500 to-indigo-500 text-center rounded-md">VER PROJETO</a>
+                </div>
+                <div class="w-1/2 flex justify-end max-sm:w-full max-sm:flex max-sm:justify-center">
+                    <img src="src/build/img/projetos/project.png" alt="A imagem de um icone de som" class="w-56 h-56 rounded-full">
+                </div>
+            </div>
+
+            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5">
+                <div class="w-1/2 max-sm:w-full max-sm:flex max-sm:justify-center">
+                    <img src="src/build/img/projetos/portfolio.png" alt="A imagem deste portfólio" class="w-56 h-56 rounded-full">
+                </div>
+                <div class="w-1/2 flex flex-col justify-between max-sm:w-full max-sm:mt-12 max-sm:mb-5">
+                    <h1 class="text-xl font-bold tracking-wide max-sm:mb-5">Portfólio</h1>
+                    <p class="tracking-wide font-semibold text-slate-300 max-sm:mb-8">Este portfólio feito com, HTML, CSS, JAVASCRIPT e TAILWINDCSS.</p>
+                    <a href="" target="_blank" class="px-24 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-center rounded-md">VER PROJETO</a>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="container py-5 h-20 flex justify-center bg-neutral-900">
+        <div class="w-1/2 flex justify-center text-slate-500">
+            <a href="https://wa.me/5531990826967" target="_blank" class="w-10 h-10 ml-2 flex justify-center place-items-center rounded-full bg-slate-950 hover:text-slate-50"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/vitorlleonardo/" target="_blank" class="w-10 h-10 mx-2 flex justify-center place-items-center rounded-full bg-slate-950 hover:text-slate-50"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/vitorlleonardo" target="_blank" class="w-10 h-10 mr-2 flex justify-center place-items-center rounded-full bg-slate-950 hover:text-slate-50"><i class="fa-brands fa-github";"></i></a>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/cd44141f88.js" crossorigin="anonymous"></script>
+    <script src="src/build/js/app.js"></script>
 </body>
 </html>
