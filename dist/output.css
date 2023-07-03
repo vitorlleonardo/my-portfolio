@@ -969,6 +969,10 @@ video {
     height: 75%;
   }
 
+  .max-sm\:h-1\/2 {
+    height: 50%;
+  }
+
   .max-sm\:w-12 {
     width: 3rem;
   }
@@ -1001,6 +1005,10 @@ video {
     justify-content: space-between;
   }
 
+  .max-sm\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .max-sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1024,5 +1032,10 @@ video {
   .max-sm\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .max-sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
