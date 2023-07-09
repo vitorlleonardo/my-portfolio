@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body class="px-72 pt-7  bg-slate-900 max-sm:px-5 max-md:px-5 max-lg:px-5 max-xl:px-24">
+<body class="px-72 pt-7 bg-slate-900 max-sm:px-5 max-md:px-5 max-lg:px-5 max-xl:px-24">
     <header class="h-8">
         <nav class="flex place-items-center justify-between">
             <div>
@@ -19,22 +19,18 @@
                     <a href="#secondary-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Sobre Mim</a>
                     <a href="#third-section" class="font-bold text-gray-400 cursor-pointer text-lg duration-300 hover:text-slate-50">Projetos</a>
             </div>
-            <div class="hidden max-sm:block max-md:block">
-                <img src="src/build/icons/menu.svg" alt="" id="menu">
-            </div>
         </nav>
     </header>
     <main>
 
         <section class=" text-slate-100 pt-48" id="first-section">
-            <div class="">
+            <div>
                 <h2 class="font-bold text-xl tracking-wide">Olá, Eu sou o <strong class="text-purple-700">João</strong>
                 </h2>
                 <h1 class="font-bold text-4xl my-3 text-purple-500">Front-End Developer</h1>
                 <p class="mt-8 my-12 tracking-wide">Sou um jovem desenvolvedor front-end baseado em Belo Horizonte, apaixonado e dedicado ao meu trabalho.</p>
                 <a href="https://www.linkedin.com/in/vitorlleonardo" target="_blank" class="px-20 py-3 bg-purple-600 rounded-sm cursor-pointer font-bold  duration-300 hover:bg-purple-500">Linkedin</a>
             </div>
-
         </section>
 
         <!--
@@ -51,23 +47,23 @@
                     <h2 class="text-purple-500 text-lg font-bold max-sm:mt-2">Sobre Mim</h2>
                     <p class="text-slate-100 font-semibold tracking-wide my-8 ">Olá! Meu nome é João, tenho 17 anos, sou de Belo Horizonte e estudante de informática. Minha paixão por tecnologia começou cedo e desde então, venho aprimorando minhas habilidades em várias linguagens de programação, bancos de dados, ferramentas de desenvolvimento e outras tecnologias relacionadas a programação.</p>
                     <div class="flex justify-between max-sm:w-full max-sm:flex max-sm:flex-wrap max-sm:gap-3 max-md:w-4/5 max-md:flex max-md:flex-wrap max-md:gap-3">
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/html5.svg" alt="Logo da Linguagem de Marcação HTML5" title="HTML5">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/html5.svg" alt="Logo HTML5" title="HTML5">
                         </div>
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/css.svg" alt="Logo CSS3" title="CSS3">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/css.svg" alt="Logo CSS3" title="CSS3">
                         </div>
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/javascript.svg" alt="Logo da Linguagem de Programação JavaScript" title="JavaScript">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/javascript.svg" alt="Logo JavaScript" title="JavaScript">
                         </div>
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/sass.svg" alt="Logo Sass" title="Sass">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/sass.svg" alt="Logo Sass" title="Sass">
                         </div>
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/tailwindcss.svg" alt="Logo da biblioteca TailwindCss" title="TailwindCss">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/tailwindcss.svg" alt="Logo TailwindCss" title="TailwindCss">
                         </div>
-                        <div class="w-14 h-14 bg-slate-800 rounded-md flex justify-center place-items-center cursor-pointer hover:border-2 hover:border-purple-700 max-sm:w-12 max-sm:h-12">
-                            <img src="./src/build/img/git.svg" alt="Logo da biblioteca TailwindCss" title="TailwindCss" class="w-10 h-10">
+                        <div class="linguagens max-sm:w-12 max-sm:h-12">
+                            <img src="./src/build/img/tecnologias/git.svg" alt="Logo Git" title="Git" class="w-10 h-10">
                         </div>
                     </div>
                 </div>
@@ -81,7 +77,7 @@
 
         <section class="mt-72 h-full flex-col text-slate-100 font-semibold tracking-wide" id="third-section">
             <h1 class="text-3xl font-bold mb-28">Projetos</h1>
-            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
+            <div class="card max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
                 <div class="w-1/2 max-sm:w-full max-sm:flex max-sm:justify-center max-md:h-1/2 max-md:w-full max-md:flex max-md:justify-center">
                     <img src="src/build/img/projetos/neoteric.png" alt="Uma imagem com a logo da Neoteric" class="w-56 h-56 rounded-full">
                 </div>
@@ -92,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
+            <div class="card max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
                 <div class="w-1/2 flex flex-col justify-between max-sm:w-full max-sm:mt-12 max-sm:mb-5 max-sm:order-1 max-md:order-1 max-md:w-full max-md:px-5 max-md:h-40 max-md:mt-10">
                     <h1 class="text-xl font-bold tracking-wide max-sm:mb-5">More Music</h1>
                     <p class="tracking-wide font-semibold text-slate-300 max-sm:mb-8">Um site inspirado no Spotify feito com, HTML, CSS e SASS.</p>
@@ -103,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="h-96 bg-stone-900 rounded-md flex mb-28 px-20 py-20 max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
+            <div class="card max-sm:flex-col max-sm:justify-between max-sm:h-3/4 max-sm:px-5 max-sm:py-5 max-md:flex max-md:flex-col max-md:h-1/2 max-md:py-10 max-md:px-10">
                 <div class="w-1/2 max-sm:w-full max-sm:flex max-sm:justify-center max-md:h-1/2 max-md:w-full max-md:flex max-md:justify-center">
                     <img src="src/build/img/projetos/portfolio.png" alt="A imagem deste portfólio" class="w-56 h-56 rounded-full">
                 </div>
@@ -128,7 +124,6 @@
 
     <script src="src/build/js/app.js"></script>
     <script src="src/build/js/animationScroll.js"></script>
-    <script src="src/build/js/changeTheme.js"></script>
     <script src="src/build/js/menuDrop.js"></script>
 </body>
 </html>
